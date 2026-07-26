@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrey D. | Portfolio</title>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background glow -->
+  <div class="glowing-orb"></div>
+
+  <main class="card-container">
+    
+    <!-- Profile Header -->
+    <header class="profile-header">
+      <div class="avatar-wrapper">
+        <img src="img/A1.jpg" alt="Andrey D." class="avatar">
+        <span class="status-indicator" title="Available for work"></span>
+      </div>
+      
+      <div class="profile-info">
+        <div class="badge">● Available for hire</div>
+        <h1>Andrey D.</h1>
+        <p class="role">Software Developer & Tech Enthusiast</p>
+      </div>
+    </header>
+
+    <!-- Bio Description -->
+    <p class="bio">
+      I develop modern web applications with a reliable backend and an intuitive frontend. I build clean, scalable code and create digital solutions focused on quality and performance.
+    </p>
+
+    <!-- Tech Stack Grid (3 columns) -->
+    <section class="tech-section">
+      <div class="tech-grid">
+        
+        <div class="tech-card">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span>
+        </div>
+
+        <div class="tech-card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS</span>
+        </div>
+
+        <div class="tech-card">
+          <i class="fa-brands fa-js"></i>
+          <span>JS</span>
+        </div>
+
+        <div class="tech-card">
+          <i class="fa-brands fa-python"></i>
+          <span>Python</span>
+        </div>
+
+        <div class="tech-card">
+          <i class="fa-solid fa-server"></i>
+          <span>Django</span>
+        </div>
+
+        <div class="tech-card">
+          <i class="fa-brands fa-git-alt"></i>
+          <span>Git</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Social Links -->
+    <section class="links-list">
+      
+      <a href="https://github.com/AcodePulse" target="_blank" class="link-item">
+        <div class="link-left">
+          <i class="fa-brands fa-github link-icon"></i>
+          <span>GitHub</span>
+        </div>
+        <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
+      </a>
+
+      <a href="https://t.me/noexcuses0n" target="_blank" class="link-item">
+        <div class="link-left">
+          <i class="fa-brands fa-telegram link-icon"></i>
+          <span>Telegram</span>
+        </div>
+        <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
+      </a>
+
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=andrey.itproger@gmail.com" target="_blank" class="link-item">
+  <div class="link-left">
+    <i class="fa-solid fa-envelope link-icon"></i>
+    <span>Send an Email</span>
+  </div>
+  <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
+</a>
+
+      <a href="https://www.instagram.com/andrey.devj?igsh=dGdqZ3dqMjZhNDMy&utm_source=qr" target="_blank" class="link-item">
+        <div class="link-left">
+          <i class="fa-brands fa-instagram link-icon"></i>
+          <span>Instagram</span>
+        </div>
+        <i class="fa-solid fa-arrow-up-right-from-square arrow-icon"></i>
+      </a>
+
+    </section>
+
+  </main>
+
+  <script>
+    // Reset focus and tap states when returning to the page (mobile fix)
+    window.addEventListener('pageshow', function (event) {
+      if (document.activeElement) {
+        document.activeElement.blur();
+      }
+    });
+  </script>
+</body>
+</html>
